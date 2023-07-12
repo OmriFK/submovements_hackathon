@@ -2,15 +2,11 @@ import matplotlib.pyplot as plt
 import math
 import numpy as np
 
-class movement:
-
-    def __init__(self) -> None:
-
-        pass
 
 
+position = np.array([1, 2, 3, 4, 5])
+time = np.array([1, 2, 3, 4, 5])
 
-## plotposition.m file ##
 
 def plotposition(position,time,plottype = 1):
 
@@ -44,3 +40,15 @@ def plotposition(position,time,plottype = 1):
 plt.show()
 
 
+
+
+
+        
+
+
+
+    # print ('num_positions',num_positions)
+    # print ('cols',cols)
+    # print ('rows',rows)
+
+plotposition(position)
