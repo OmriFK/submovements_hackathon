@@ -9,13 +9,13 @@ class movement:
 
         pass
 
-    def loaddata(dirname):
+    def loaddata(self,dirname):
         files = os.listdir(dirname)
         csv_files = [f for f in files if f.endswith('.csv')]
-        
+       
         if not csv_files:
             raise ValueError('Must specify a directory to load the csv files from')
-        
+   
         blocks = []
         trials = []
         filenames = []
